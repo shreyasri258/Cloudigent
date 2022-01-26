@@ -1,0 +1,75 @@
+
+
+header{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-style:unset;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+#d1{
+   
+    float: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+#d2:active{  
+
+    background-color:rgb(155, 32, 32);
+
+}
+
+.ele{
+font-size: 20px;
+    font-weight: bolder;
+}
+
+#myimg{
+    image-rendering: crisp-edges;
+    border-style:double;
+    border-radius: 50px;
+    border-color: rgb(79, 42, 165);
+    width: 80px;
+    height: 80px;
+}
+#pp{
+    font-size: larger;
+    
+}
+
+.total{
+    	background: linear-gradient(-45deg, #f2faa9, #d6a0f5, #93d7f0, #97ebd7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:inherit;
+  
+    max-width: 400px;
+    width: 100%;
+    max-height: 500px;
+    margin: 60px auto;
+    padding: 70px;
+    border-radius: 100px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,10);
+}
+body {
+	background: linear-gradient(-45deg,  #b4e978, #daf170, #2c9ab6,#9046bb );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
