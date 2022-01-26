@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⛈️Cloudigent</title>
+   
+    <script src="weather.js"></script>
+    <style>
+      
+
+header{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-style:unset;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+#d1{
+   
+    float: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+#d2:active{  
+
+    background-color:rgb(155, 32, 32);
+
+}
+
+.ele{
+font-size: 20px;
+    font-weight: bolder;
+}
+
+#myimg{
+    image-rendering: crisp-edges;
+    border-style:double;
+    border-radius: 50px;
+    border-color: rgb(79, 42, 165);
+    width: 80px;
+    height: 80px;
+}
+#pp{
+    font-size: larger;
+    
+}
+
+.total{
+    	background: linear-gradient(-45deg, #f2faa9, #d6a0f5, #93d7f0, #97ebd7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:inherit;
+  
+    max-width: 400px;
+    width: 100%;
+    max-height: 500px;
+    margin: 60px auto;
+    padding: 70px;
+    border-radius: 100px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,10);
+}
+body {
+	background: linear-gradient(-45deg,  #b4e978, #daf170, #2c9ab6,#9046bb );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+    </style>
+  </head>
+  
+  <header><h1>
+    
+    Welcome to Cloudigent!⛈️</h1></header>
+  <body>
+    <div class="total">
+    <h1>So, what’s the weather like where you are? ☔️</h1>
+   
+      <select id="d1" style="text-align: center">
+        <option value=""></option>
+        <option value="chennai">chennai</option>
+        
+          <option value="goa">goa</option>
+       
+        <option value="Amsterdam" >Amsterdam</option>
+        <option value="Osaka">Osaka</option>
+        <option value="Agra">Agra</option>
+        <option value="Las Vegas">Las Vegas</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Shanghai">Shanghai</option>
+        <option value="Pattaya">Pattaya</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <button onclick="f1()" id="pp">submit</button>
+      <div class="ele">
+      <p id="mypara"></p>
+<p id="humidity"></p>
+<p id="tempmax"></p>
+<p id="tempmin"></p>
+<p id="cntry"></p>
+<p id="pressure"></p>
+</div>
+      <img id="myimg" src="" />
+      <style>
+
+ <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+	<div class="d-flex flex-column justify-content-center align-items-center">
+		<h1 class="fw-light text-white m-0">Pure CSS Gradient Background Animation</h1>
+		<div class="btn-group my-5">
+			<a href="https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/pyBNzX/1578778289271/pure-css-gradient-background-animation.zip" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i> SOURCE CODE</a>
+			<a href="https://codepen.io/P1N2O/full/pyBNzX" class="btn btn-outline-light">FULL SCREEN <i class="fas fa-expand ms-2"></i></a>
+		</div>
+		<a href="https://manuel.pinto.dev" class="text-decoration-none">
+			<h5 class="fw-light text-white m-0">— Pen by Manuel Pinto —</h5>
+		</a>
+	</div>
+</div>
+</div>
+</style>
+    <script>
+         function changeColor(color) {
+                document.body.style.background = color;
+            }
+             function gfg_Run() {
+                changeColor('yellow');}
+    </script>
+    
+  </body>
+</html>
